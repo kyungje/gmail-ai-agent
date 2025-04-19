@@ -100,3 +100,8 @@ streamlit run gmail_ai_agent/ui/app.py
 1. Google Cloud Console에서 API 할당량을 확인하세요.
 2. 필요한 API가 모두 활성화되어 있는지 확인하세요.
 3. 클라이언트 ID와 보안 비밀번호가 올바른지 확인하세요.
+
+### 실행 화면
+
+<img width="1439" alt="image" src="https://github.com/user-attachments/assets/ea992adf-6184-4525-8d31-4f21edd4cbbf" />
+
