@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gmail_ai_agent"
+version = "0.1.0"
+authors = [
+    { name="Your Name", email="your.email@example.com" },
+]
+description = "Gmail AI Assistant"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "langchain>=0.1.0",
+    "langchain-openai>=0.0.2",
+    "langchain-community>=0.0.10",
+    "langgraph>=0.0.15",
+    "fastapi>=0.104.1",
+    "uvicorn>=0.24.0",
+    "streamlit>=1.28.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.4.2",
+    "pydantic-settings>=2.0.3",
+    "google-auth-oauthlib>=1.1.0",
+    "google-auth-httplib2>=0.1.1",
+    "google-api-python-client>=2.108.0",
+    "faiss-cpu>=1.7.4",
+    "requests>=2.31.0"
+] 
